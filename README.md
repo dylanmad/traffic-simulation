@@ -1,7 +1,5 @@
 # Unity 3D Traffic Simulation 
 
-### Demo Video: https://www.youtube.com/watch?v=qaD8qPb5uZE
-
 # About
 Using the design principles behind Finite State Machines (FSM), I implemented a 3D traffic simulation in Unity using C#. The simulation includes vehicles and pedestrians, as well as various traffic management devices like traffic signals, crosswalks, stop signs, etc. The scene encapsulates four square blocks of a city, and vehicles are able to make their own decisions on whether or not to turn at the designated intersections. Pedestrians are able to walk along the sidewalks that surround each square block and are able to reactively use crosswalks when the proper traffic signal is displayed. Finally, both vehicles and pedestrians use ray casting for collision detection and avoidance.
 
